@@ -46,9 +46,9 @@ public class CokgenHesaplayici {
         }
 
         public double alanHesaplaUcgenIcin() {
-            if (kosesayisi != 3) return -1; // üçgen değilse alan hesaplama
+            if (kosesayisi != 3) return -1; 
 
-            // Shoelace formülü üçgen için özel hali
+            
             double x1 = koseler[0].x, y1 = koseler[0].y;
             double x2 = koseler[1].x, y2 = koseler[1].y;
             double x3 = koseler[2].x, y3 = koseler[2].y;
